@@ -256,7 +256,7 @@ public class ExportExcel {
 	 *
 	 * @param t 	类实例
 	 * @param <T> 	泛型类
-	 * @return 方法名数组
+	 * @return String[]
 	 */
 	private static <T> String [] getFields(T t) {
 		Field [] fields = t.getClass().getDeclaredFields();
